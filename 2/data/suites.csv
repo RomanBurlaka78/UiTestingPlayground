@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","38","testLoadDelay","Surefire suite","Wed Oct 15 18:56:43 UTC 2025","broken","Wed Oct 15 18:56:43 UTC 2025","ui.testing.test.FirstRowTest","Surefire test","ui.testing.test.FirstRowTest","testLoadDelay"
+"","26","testAjaxData","Surefire suite","Wed Oct 15 18:56:44 UTC 2025","broken","Wed Oct 15 18:56:44 UTC 2025","ui.testing.test.SecondRowTest","Surefire test","ui.testing.test.SecondRowTest","testAjaxData"
+"","33","Dynamic ID - Verify that element ID changes after refresh","Surefire suite","Wed Oct 15 18:56:40 UTC 2025","broken","Wed Oct 15 18:56:40 UTC 2025","ui.testing.test.FirstRowTest","Surefire test","ui.testing.test.FirstRowTest","testDynamicId"
+"","1446","testHiddenLayers","Surefire suite","Wed Oct 15 18:56:41 UTC 2025","passed","Wed Oct 15 18:56:42 UTC 2025","ui.testing.test.FirstRowTest","Surefire test","ui.testing.test.FirstRowTest","testHiddenLayers"
+"","688","testClassAttribute","Surefire suite","Wed Oct 15 18:56:38 UTC 2025","passed","Wed Oct 15 18:56:39 UTC 2025","ui.testing.test.FirstRowTest","Surefire test","ui.testing.test.FirstRowTest","testClassAttribute"
