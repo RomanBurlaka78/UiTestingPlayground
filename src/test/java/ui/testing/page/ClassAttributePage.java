@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import ui.testing.base.BasePage;
 
-public  class ClassAttributePage extends BasePage {
+public  class ClassAttributePage extends BasePage<ClassAttributePage> {
     public ClassAttributePage(WebDriver driver) {
         super(driver);
     }

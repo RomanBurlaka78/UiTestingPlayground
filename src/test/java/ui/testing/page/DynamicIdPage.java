@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import ui.testing.base.BasePage;
 
-public class DynamicIdPage extends BasePage {
+public class DynamicIdPage extends BasePage<DynamicIdPage> {
     public DynamicIdPage(WebDriver driver) {
         super(driver);
     }

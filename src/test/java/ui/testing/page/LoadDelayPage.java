@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import ui.testing.base.BasePage;
 
-public class LoadDelayPage extends BasePage {
+public class LoadDelayPage extends BasePage<LoadDelayPage> {
     public LoadDelayPage(WebDriver driver) {
         super(driver);
     }

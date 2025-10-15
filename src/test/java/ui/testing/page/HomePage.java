@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.testng.Reporter;
 import ui.testing.base.BasePage;
 
-public  class HomePage extends BasePage {
+public  class HomePage extends BasePage<HomePage> {
     public HomePage(WebDriver driver) {
         super(driver);
     }
