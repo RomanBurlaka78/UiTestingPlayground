@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import ui.testing.base.BasePage;
 
-public class HiddenLayersPage extends BasePage {
+public class HiddenLayersPage extends BasePage<HiddenLayersPage> {
     public HiddenLayersPage(WebDriver driver) {
         super(driver);
     }

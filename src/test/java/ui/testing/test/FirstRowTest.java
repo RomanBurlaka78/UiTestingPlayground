@@ -34,7 +34,7 @@ public class FirstRowTest extends BaseTest {
         Assert.assertNotEquals(id, idNew, "ID должен меняться после обновления страницы");
     }
 
-    @Test(description = "Class Attribute - Verify that class-based XPath is well formed")
+    @Test
     @Story("Class Attribute")
     @Severity(SeverityLevel.MINOR)
     public void testClassAttribute() {
@@ -53,7 +53,7 @@ public class FirstRowTest extends BaseTest {
         softAssert().assertAll();
     }
 
-    @Test(description = "Hidden Layers - Ensure test doesn't click invisible elements")
+    @Test
     @Story("Hidden Layers")
     @Severity(SeverityLevel.CRITICAL)
     public void testHiddenLayers() {
@@ -73,7 +73,7 @@ public class FirstRowTest extends BaseTest {
         softAssert().assertAll();
     }
 
-    @Test(description = "Load Delay - Ensure that a test is capable of waiting for a page to load")
+    @Test()
     @Story("Load Delay")
     @Severity(SeverityLevel.CRITICAL)
     public void testLoadDelay() {
@@ -85,4 +85,5 @@ public class FirstRowTest extends BaseTest {
             Allure.addAttachment("Button is shown : ", delay);
         });
     }
+
 }
