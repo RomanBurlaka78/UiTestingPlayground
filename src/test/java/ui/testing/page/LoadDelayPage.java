@@ -15,7 +15,7 @@ public class LoadDelayPage extends BasePage<LoadDelayPage> {
     @Step("Wait until button will be presence on page")
     public String confirmAppearedButton() {
         WebElement btnAppeared = getDriver().findElement(By.xpath("//button[@class = 'btn btn-primary']"));
-        wait4().until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//button[@class = 'btn btn-primary']")));
+        wait10().until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//button[@class = 'btn btn-primary']")));
 
         return btnAppeared.getText();
     }

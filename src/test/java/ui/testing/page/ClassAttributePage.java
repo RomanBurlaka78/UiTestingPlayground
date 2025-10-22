@@ -17,7 +17,7 @@ public  class ClassAttributePage extends BasePage<ClassAttributePage> {
 
     public String getAlert() {
         buttonPrimary.click();
-        wait4().until(ExpectedConditions.alertIsPresent());
+        wait10().until(ExpectedConditions.alertIsPresent());
         Alert alert = getDriver().switchTo().alert();
         String text = alert.getText();
         alert.accept();
