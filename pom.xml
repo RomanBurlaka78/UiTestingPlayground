@@ -84,6 +84,12 @@
             <artifactId>selenide</artifactId>
             <version>7.8.0</version>
         </dependency>
+        <!-- Metrics InfluxDB from allure-report-->
+        <dependency>
+            <groupId>com.influxdb</groupId>
+            <artifactId>influxdb-client-java</artifactId>
+            <version>6.11.0</version>
+        </dependency>
     </dependencies>
 
     <build>
