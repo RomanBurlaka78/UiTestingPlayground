@@ -18,7 +18,7 @@ public abstract class BasePage<T extends BasePage<T>> {
         return driver;
     }
 
-    public WebDriverWait wait4() {
-        return new WebDriverWait(getDriver(), Duration.ofSeconds(4));
+    public WebDriverWait wait10() {
+        return new WebDriverWait(getDriver(), Duration.ofSeconds(10));
     }
 }

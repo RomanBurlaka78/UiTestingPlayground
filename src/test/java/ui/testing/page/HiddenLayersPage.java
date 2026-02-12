@@ -15,7 +15,7 @@ public class HiddenLayersPage extends BasePage<HiddenLayersPage> {
     public String notAllowedClickMoreThanOne() {
         String message = "";
         boolean clickable = true;
-        WebElement enableButton = wait4().until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id = 'greenButton']")));
+        WebElement enableButton = wait10().until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id = 'greenButton']")));
         try {
             enableButton.click();
             message = "Green button visible and  clicked. Click : ";

@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.asserts.SoftAssert;
+import ui.testing.utils.InfluxReader;
 
 public class BaseTest {
     protected WebDriver driver;
@@ -36,8 +37,11 @@ public class BaseTest {
 
     @AfterMethod(alwaysRun = true)
     public void tearDown() {
+        InfluxReader.printAllureMetrics();
         if (driver != null) {
             driver.quit();
         }
     }
+
 }
+
